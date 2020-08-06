@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import Header from "./Header";
 function App() {
@@ -17,7 +17,7 @@ function App() {
 
           <Route exact path="/">
             <Header />
-            <h1>Home Page!!!</h1>
+            <h1>HOME PAGE!!!</h1>
           </Route>
 
           <Route path="/">
