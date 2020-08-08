@@ -4,7 +4,7 @@
   align-items: center;
   position: sticky;
   top: 0;
-  /* z-index: 100; */
+  z-index: 100;
 }
 .header__logo {
   width: 100px;
@@ -17,15 +17,19 @@
   flex: 1;
 }
 .header__searchInput {
+  /* border-radius: 5px; */
   height: 12px;
   padding: 10px;
   border: none;
   width: 100%;
 }
+.header__searchInput:focus {
+  outline: none;
+}
 .header__searchIcon {
   padding: 5px;
   height: 22px !important;
-  background-color: #cd9042;
+  background-color: #f3a846;
 }
 
 .header__nav {
